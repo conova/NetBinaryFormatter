@@ -9,7 +9,7 @@ This project has two methods.
 -Format
   byte[] formattedBytes = new BinaryFormatter().format(bytes);
   OR
-  byte[] formattedBytes = new BinaryFormatter(bytes).format();
+  Object formattedBytes = new BinaryFormatter(bytes).format();
 -Parse
   new BinaryFormatter().parse(bytes);
 
