@@ -6,7 +6,7 @@ This project has two methods. <br>
 -Parse / c3 object bytes to java object/<br> 
 
 # Usage
--Format
+-Format<br> 
   byte[] formattedBytes = new BinaryFormatter().format(bytes); <br> 
   OR<br> 
   Object formattedBytes = new BinaryFormatter(bytes).format();<br> 
