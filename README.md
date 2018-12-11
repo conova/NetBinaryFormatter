@@ -13,5 +13,5 @@ This project has two methods.
 -Parse
   new BinaryFormatter().parse(bytes);
 
-Convert types:
+# Convert types:
 byte, boolean, char, short, int, long, float, double, string and array
