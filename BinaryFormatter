@@ -1,3 +1,4 @@
+
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
@@ -214,13 +215,13 @@ public class BinaryFormatter {
         return 1;
     }
 
-    public static byte[] netStringToByte(String s) {
+    public static byte[] netStringToByte(String s) throws IOException {
         byte b[] = Functions.strtob(s);
         netStringLenToByte(b.length);
         return Functions.merge(netStringLenToByte(b.length), b);
     }
 
-    public byte[] netBinary(Object o) {
+    public byte[] netBinary(Object o) throws IOException {
         if (o instanceof Byte) {
             return new byte[]{BASIC_OBJECT, BYTE, (byte) o};
         }
