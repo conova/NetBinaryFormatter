@@ -34,10 +34,7 @@ public class Functions {
         int value = Float.floatToIntBits(f);
         return itob(value);
     }
-
-
-
-
+    
     public static byte[] strtob(String s) {
         return s.getBytes();
     }
