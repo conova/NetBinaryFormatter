@@ -7,7 +7,7 @@ This project has two methods.
 
 # Usage
 -Format
-  byte[] formattedBytes = new BinaryFormatter().format(bytes);
+  byte[] formattedBytes = new BinaryFormatter().format(bytes); <br> \n
   OR
   Object formattedBytes = new BinaryFormatter(bytes).format();
 -Parse
